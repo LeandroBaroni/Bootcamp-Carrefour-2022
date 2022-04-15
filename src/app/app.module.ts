@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HtmlComponent } from './pages/html/html.component';
 import { MapComponent } from './pages/js/Colections/map/map.component';
 import { SetComponent } from './pages/js/Colections/set/set.component';
 import { AtividadePratiComponent } from './pages/js/Colections/atividade-prati/atividade-prati.component';
@@ -17,6 +18,7 @@ import { AtividadePooComponent } from './pages/js/poo/atividade-poo/atividade-po
 @NgModule({
   declarations: [
     AppComponent,
+    HtmlComponent,
     MapComponent,
     SetComponent,
     AtividadePratiComponent,
@@ -26,7 +28,7 @@ import { AtividadePooComponent } from './pages/js/poo/atividade-poo/atividade-po
     AtividadePraticaComponent,
     PromisesComponent,
     ApiFetchComponent,
-    AtividadePooComponent
+    AtividadePooComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,25 @@
+*{
+  background: #ccc;
+}
+
+#title, .subtitle, .postTitle{
+  color: blue;
+}
+
+.postTitle{
+  font-size: 16px;
+  font-style: italic;
+}
+
+.post{
+  background: #FFF;
+  padding: 10px;
+  border: 5px solid #000;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.post_content{
+  margin: 0;
+  margin-bottom: 15px;
+}
