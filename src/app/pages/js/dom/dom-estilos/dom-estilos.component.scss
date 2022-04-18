@@ -1,0 +1,20 @@
+section.light-mode{
+  margin: 5px;
+  background-color: #ccc;
+  height: 400px;
+}
+
+.light-mode .title{
+  color: black;
+}
+
+section.dark-mode{
+  margin: 5px;
+  background-color: #333;
+  height: 400px;
+}
+
+.dark-mode .title{
+  color: #666;
+  border: 1px solid rgb(200, 206, 30);
+}

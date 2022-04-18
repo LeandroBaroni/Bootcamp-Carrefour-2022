@@ -14,6 +14,11 @@ import { AtividadePraticaComponent } from './pages/js/debugging/atividade-pratic
 import { PromisesComponent } from './pages/js/assinconicidade/promises/promises.component';
 import { ApiFetchComponent } from './pages/js/assinconicidade/api-fetch/api-fetch.component';
 import { AtividadePooComponent } from './pages/js/poo/atividade-poo/atividade-poo.component';
+import { MapFunctionComponent } from './pages/js/map-filter-reduce/map/map-function.component';
+import { FilterFunctionComponent } from './pages/js/map-filter-reduce/filter-function/filter-function.component';
+import { ReduceFunctionComponent } from './pages/js/map-filter-reduce/reduce-function/reduce-function.component';
+import { DomEstilosComponent } from './pages/js/dom/dom-estilos/dom-estilos.component';
+import { DesafioUmComponent } from './pages/js/desafios/desafio-um/desafio-um.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +34,11 @@ import { AtividadePooComponent } from './pages/js/poo/atividade-poo/atividade-po
     PromisesComponent,
     ApiFetchComponent,
     AtividadePooComponent,
+    MapFunctionComponent,
+    FilterFunctionComponent,
+    ReduceFunctionComponent,
+    DomEstilosComponent,
+    DesafioUmComponent
   ],
   imports: [
     BrowserModule,
