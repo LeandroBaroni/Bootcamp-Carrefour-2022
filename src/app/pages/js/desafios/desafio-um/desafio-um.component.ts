@@ -10,8 +10,9 @@ export class DesafioUmComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.desafio_one();
-    this.desafio_two();
+    // this.desafio_one();
+    // this.desafio_two();
+    this.desafio_three();
   }
 
   desafio_one(){
@@ -40,5 +41,32 @@ export class DesafioUmComponent implements OnInit {
 
     //   console.log(i, a, b);
     // }
+  }
+
+  desafio_three(){
+    // let value = parseInt(gets());
+    let value = 400;
+
+    let ano = 0;
+    let mes = 0;
+    let dia = 0;
+
+    while(value >= 365){
+      ano = Math.round(value / 365);
+      value = value % 365;
+    }
+
+    while(value >= 30){
+      mes = Math.round(value / 30);
+      value = value % 30
+    }
+
+    while(value < 30){
+      dia = value;
+      value = value - dia;
+    }
+
+    let resultado = (ano + " ano(s) " + '\n' + mes +" mes(es)" + '\n' + dia + " dia(s)");
+    console.log(resultado);
   }
 }
